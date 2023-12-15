@@ -22,7 +22,7 @@ This is a simple Spring Boot application for time conversion by country. Users c
 - Java 11 or later
 - Maven
 
-**Usage
-**Visit http://localhost:8080/ in your web browser.
-Select a time zone from the dropdown menu.
-Click the "Convert" button to view the current time in the selected time zone.
+## Usage
+- Visit http://localhost:8080/ in your web browser.
+- Select a time zone from the dropdown menu.
+- Click the "Convert" button to view the current time in the selected time zone.
