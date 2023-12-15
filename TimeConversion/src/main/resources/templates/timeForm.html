@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Conversion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2>Time Conversion</h2>
+<form action="/convert" method="post">
+    <label for="timezone">Select Timezone:</label>
+    <select name="selectedTimezone" id="timezone">
+        <option th:each="timezone : ${timezones}" th:value="${timezone}" th:text="${timezone}"></option>
+    </select>
+    <button type="submit">Convert</button>
+</form>
+</body>
+</html>

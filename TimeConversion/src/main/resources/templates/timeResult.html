@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Result</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2>Time Conversion Result</h2>
+<p>Selected Timezone: <span th:text="${selectedTimezone}"></span></p>
+<p>Converted Time: <span th:text="${convertedTime}"></span></p>
+<a href="/">Go back</a>
+</body>
+</html>
